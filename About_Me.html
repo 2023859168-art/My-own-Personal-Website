@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <style>
+    
+    h1, p 
+    {
+      text-align: center;
+    }
+
+    table 
+    {
+      margin: auto;
+      border-collapse: collapse;
+      width: 50%;
+      background-color: darkgrey;
+      border: 2px solid floralwhite;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px gray;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+      border: 1px solid black;
+      color: black;
+    }
+
+    th {
+      background-color: floralwhite;
+      font-weight: bold;
+
+    }
+
+    tr:nth-child(even) {
+      background-color:lightgrey;
+    }
+    table tr:hover {
+    background-color: lightblue;
+   }
+
+
+    .biodata-container {
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .custom-marker {
+  list-style: none;
+  padding-left: 0;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.custom-marker li {
+  color: black;
+  background-color: silver;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.custom-marker li::before {
+  content: "★ ";
+  color: gold;
+  font-weight: bold;
+}
+
+  a.back-to-home img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  a.back-to-home:hover img {
+  transform: scale(1.05);
+  }
+
+  </style>
+
+</head>
+<body>
+
+  <h1 style="font-family: sans-serif; background-color: white; color: black; border: 2px dotted black; display: inline-block; padding: 5px 15px; margin: 20px auto; text-align: center;">
+About Me
+</h1>
+  <p>Here’s a little about me, including my personal traits, favorite things, and other small details that make up who I am.</p>
+
+  <h2 style="color: white; text-align: center;"><em>My Picture</em></h2>
+  <div style="text-align: center;">
+    <img src="image/profilepic.jpg" alt="My Profile Picture" title="My Profile Picture" 
+         style="width:100px; height:180px;  border:3px solid black;"></div>
+
+   <div class="biodata-container">
+
+  <table>
+    <tr><th>Category</th><th>Details</th></tr>
+    <tr><td><b>Name</b></td><td>MUHAMMAD HISHAM BIN MOHD HAMIDY</td></tr>
+    <tr><td><b>Date of Birth</b></td><td>10/7/2005</td></tr>
+    <tr><td><b>Class</b></td><td>CDIM1105G</td></tr>
+    <tr><td><b>Course</b></td><td>Diploma in Information Management</td></tr>
+    <tr><td><b>Hobbies</b></td><td>Listening to various kinds of music</td></tr>
+    <tr><td><b>Favourite Football Team</b></td>
+    <td>Manchester City</td>  
+    <tr><td><b>Favorite Football Player</b></td>
+    <td>Kvicha Kvaratskhelia ⚽</td>
+    <tr><td><b>Race</b></td><td>Malay</td></tr>
+    <tr><td><b>Address</b></td><td>No 141, Jalan BS 2/3, Bukit Saujana, 47000 Sungai Buloh, Selangor</td></tr>
+  </table>
+</div>
+
+<h2 style="text-align:center; color:white;">Personal Traits & Interests</h2>
+
+<ul class="custom-marker">
+  <li>Work Well Under Pressure</li>
+  <li>Enjoys listening to various music genres</li>
+  <li>Cat lover and animal-friendly</li>
+  <li>Interested in digital content and design</li>
+</ul>
+
+
+  <script>
+    {
+    alert("You are now entering the About Me Page")
+    }
+  </script>
+
+  <p style="font-size:20px">Explore my journey through the navigation buttons below.</p>
+
+  <p class="button-row">
+    <a href="gallery_page.html" title="Gallery Page">
+      <img src="button/button_gallery.png" alt="Gallery Button">
+    </a>
+
+    <a href="experience.html" title="Experience Page">
+      <img src="button/button_experience.png" alt="Experience Button">
+    </a>
+
+    <a href="education.html" target="_blank" title="Education Page">
+      <img src="button/button_education.png" alt="Education Button">
+    </a>
+
+    <a href="About_Me.html" target="_blank" title="About Me Page">
+      <img src="button/button_about-me.png" alt="About Me Button">
+    </a>
+
+  <a href="family_page.html" target="_blank">
+      <img src="button/button_family.png" alt="Family Button">
+</a>
+
+  <a href="Achievement_pages.html" target="_blank" title="Achievement Page">
+      <img src="button/button_achievement.png" alt="Achievement Button">
+</a></p>
+
+  <p style="text-align:center; margin:10px;">
+  <a href="index.html" class="back-to-home" title="Back to Home">
+    <img src="button/backtohome.png" alt="Home Button" style="width:250px;">
+  </a>
+</p>
+
+<footer style="color:white; margin-bottom: 10px;">
+  <br>© 2025 Muhammad Hisham bin Mohd Hamidy | IMD318 – Introduction to Content Management and Design
+</footer>
+
+</body>
+</html>
